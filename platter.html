@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Mehra Wood Handicrafts</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link
+      href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Spinner Start -->
+    <div
+      id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div
+        class="spinner-border text-primary"
+        style="width: 3rem; height: 3rem"
+        role="status"
+      >
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header mb-5 py-5">
+      <div class="container">
+        <h1 class="display-3 text-white mb-3 animated slideInDown">
+          Wood Platter
+        </h1>
+        <nav aria-label="breadcrumb animated slideInDown">
+          <ol class="breadcrumb text-uppercase">
+            <li class="breadcrumb-item">
+              <a class="text-white" href="#">Home</a>
+            </li>
+            <li class="breadcrumb-item">
+              <a class="text-white" href="#">Pages</a>
+            </li>
+            <li class="breadcrumb-item text-white active" aria-current="page">
+              Wood Platter
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+    <!-- Page Header End -->
+    <style>
+      /* Product Container */
+      .product-container {
+        display: flex;
+        flex-wrap: wrap; /* Allow wrapping on smaller screens */
+        gap: 40px;
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        max-width: 1000px;
+        margin: 60px auto;
+      }
+
+      /* Product Image */
+      .product-image {
+        flex: 1 1 300px; /* Flex-grow, shrink, basis */
+        text-align: center;
+      }
+
+      .product-image img {
+        max-width: 100%;
+        border-radius: 10px;
+      }
+
+      /* Product Details */
+      .product-details {
+        flex: 2 1 400px;
+      }
+
+      .product-details h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+        font-weight: 700;
+      }
+
+      .product-details ul {
+        list-style-type: disc;
+        padding-left: 20px;
+        font-size: 18px;
+        line-height: 1.8;
+        color: #333;
+      }
+
+      /* Button Styling */
+      .product-details .btn {
+        background: linear-gradient(135deg, #5333f2, #3058f5);
+        color: #fff !important;
+        font-size: 18px;
+        font-weight: 600;
+        padding: 12px 28px;
+        border: none;
+        border-radius: 30px;
+        transition: all 0.3s ease-in-out;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        margin-top: 20px;
+      }
+
+      .product-details .btn:hover {
+        background: linear-gradient(135deg, #3058f5, #5333f2);
+        transform: translateY(-3px);
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+      }
+
+      /* Media Queries for Responsiveness */
+
+      /* Medium screens */
+      @media (max-width: 992px) {
+        .product-container {
+          padding: 20px;
+          gap: 30px;
+        }
+
+        .product-details h1 {
+          font-size: 30px;
+        }
+
+        .product-details ul {
+          font-size: 16px;
+        }
+
+        .product-details .btn {
+          font-size: 16px;
+          padding: 10px 24px;
+        }
+      }
+
+      /* Small screens */
+      @media (max-width: 768px) {
+        .product-container {
+          flex-direction: column; /* Stack image and details */
+          align-items: center;
+          text-align: center;
+          padding: 15px;
+        }
+
+        .product-details {
+          flex: 1 1 100%;
+        }
+
+        .product-details h1 {
+          font-size: 26px;
+        }
+
+        .product-details ul {
+          font-size: 15px;
+          padding-left: 0;
+          list-style-position: inside;
+        }
+
+        .product-details .btn {
+          width: 80%;
+          font-size: 16px;
+          padding: 10px 20px;
+        }
+      }
+
+      /* Extra small screens */
+      @media (max-width: 480px) {
+        .product-details h1 {
+          font-size: 22px;
+        }
+
+        .product-details ul {
+          font-size: 14px;
+        }
+
+        .product-details .btn {
+          font-size: 14px;
+          padding: 8px 18px;
+        }
+      }
+    </style>
+
+    <div class="product-container justify-content-center align-items-center">
+      <div class="product-image">
+        <img src="img/woodplater.jpg" alt="Wooden Platter" />
+      </div>
+      <div class="product-details">
+        <h1>Handcrafted Wooden Platter</h1>
+        <ul>
+          <li>
+            Made from premium quality wood with a smooth, polished finish.
+          </li>
+          <li>Perfect for serving appetizers, fruits, cheese, and snacks.</li>
+          <li>
+            Durable and sturdy design suitable for daily use or special
+            occasions.
+          </li>
+          <li>Lightweight yet spacious, ideal for home or gifting.</li>
+          <li>
+            Available in multiple shapes, sizes, and natural wood finishes.
+          </li>
+          <li>Enhances your dining experience with a rustic, elegant touch.</li>
+        </ul>
+        <a
+          href=""
+          class="btn btn-primary text-dark border border-black"
+          data-bs-toggle="modal"
+          data-bs-target="#enquiryModal"
+          >Enquire Now</a
+        >
+      </div>
+    </div>
+
+    <!-- Back to Top -->
+    <a
+      href="#"
+      class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"
+      ><i class="bi bi-arrow-up"></i
+    ></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+  </body>
+</html>

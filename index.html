@@ -1,11 +1,1051 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Mehra Wood Handcraft</h1>
-</body>
+
+  <head>
+    <meta charset="utf-8" />
+    <title>MEHRA WOOD HANDICRAFTS</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link
+      href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+
+    <style>
+      .service-item-top .overflow-hidden {
+        height: 300px;
+      }
+
+      .service-item-top img {
+        height: 100%;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Spinner Start -->
+    <div
+      id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div
+        class="spinner-border text-primary"
+        style="width: 3rem; height: 3rem"
+        role="status"
+      >
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Topbar -->
+    <div class="topbar">
+      <div class="contact-info">
+        <!-- <span
+          ><i class="fa fa-envelope me-1"></i> info@shreechamundabags.com
+        </span> -->
+        <span><i class="fa fa-phone me-1"></i> +91 9917576628 </span>
+      </div>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+    <!-- Topbar end -->
+
+    <!-- STICKY NAVBAR -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top px-3 py-2"
+    >
+      <div class="container-fluid">
+        <!-- Logo -->
+        <a
+          class="navbar-brand fw-bold d-flex justify-content-center align-items-center"
+          href="index.html"
+        >
+          <h1 class="text-dark">MEHRA WOOD HANDICRAFTS</h1>
+        </a>
+
+        <!-- Right Side Icons (Always visible) -->
+        <div class="d-flex align-items-center ms-auto gap-3">
+          <a href="#" class="text-dark"><i class="fa fa-search"></i></a>
+          <a href="#" class="text-dark"><i class="fa fa-user"></i></a>
+          <a href="#" class="text-dark position-relative">
+            <i class="fa fa-shopping-cart"></i>
+            <span
+              class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-dark text-white"
+              >0</span
+            >
+          </a>
+          <!-- Menu Toggle (Always visible) -->
+          <button
+            class="btn border-0 d-lg-block d-md-block d-sm-block"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasMenu"
+          >
+            <i class="fa fa-bars fs-5"></i>
+          </button>
+        </div>
+      </div>
+    </nav>
+    <!-- End navbar -->
+
+    <!-- OFFCANVAS MENU -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasMenu">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title">Menu</h5>
+        <button
+          type="button"
+          class="btn-close text-reset"
+          data-bs-dismiss="offcanvas"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="list-unstyled">
+          <!-- <li><a href="#" class="d-block py-2">Collection</a></li> -->
+
+          <!-- Pages Dropdown (Accordion-style) -->
+          <li>
+            <button
+              class="btn w-100 text-start p-0 border-0 bg-transparent toggle-submenu"
+            >
+              <span
+                class="fw-bold d-flex justify-content-between align-items-center py-2"
+              >
+                Pages <i class="fa fa-chevron-down"></i>
+              </span>
+            </button>
+            <ul class="submenu list-unstyled ps-3 d-none">
+              <li><a href="" class="d-block py-1">Home</a></li>
+              <li><a href="about.html" class="d-block py-1">About</a></li>
+              <li><a href="contact.html" class="d-block py-1">Contact</a></li>
+              <li><a href="product.html" class="d-block py-1">Products</a></li>
+              <li><a href="service.html" class="d-block py-1">Service</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 mb-5">
+      <div class="owl-carousel header-carousel position-relative">
+        <div class="owl-carousel-item position-relative">
+          <img
+            class="img-fluid"
+            src="img/woodtray.jpg"
+            alt=""
+            style="height: 660px; object-fit: cover"
+          />
+          <div
+            class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
+            style="background: rgba(0, 0, 0, 0.4)"
+          >
+            <div class="container">
+              <div class="row justify-content-start">
+                <div class="col-10 col-lg-8">
+                  <h5
+                    class="text-white text-uppercase mb-3 animated slideInDown"
+                    style="color: white !important"
+                  >
+                    Latest Premium Collection in Wooden Trays & Serveware
+                  </h5>
+                  <h1
+                    class="display-3 animated slideInDown mb-4"
+                    style="color: white"
+                  >
+                    Your Trusted Partner in Wooden Trays & Home Décor
+                  </h1>
+                  <p
+                    class="fs-5 fw-medium text-white mb-4 pb-2"
+                    style="color: white !important"
+                  >
+                    Explore our exclusive range of handcrafted wooden trays
+                    designed for serving, gifting, and décor. Stylish, durable,
+                    and eco-friendly – perfect for homes, hotels, restaurants,
+                    and special occasions.
+                  </p>
+                  <a
+                    href="#"
+                    class="btn bg-primary btn-primary py-md-3 px-md-5 me-3 animated slideInLeft"
+                  >
+                    Shop Now
+                  </a>
+                  <a
+                    href="#"
+                    class="btn text-light bg-primary btn-secondary py-md-3 px-md-5 animated slideInRight"
+                  >
+                    Get Offer
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="owl-carousel-item position-relative">
+          <img
+            class="img-fluid"
+            src="img/woodjewellerybox.jpeg"
+            alt=""
+            style="height: 660px; object-fit: fill"
+          />
+          <div
+            class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
+            style="background: rgba(0, 0, 0, 0.4)"
+          >
+            <div class="container">
+              <div class="row justify-content-start">
+                <div class="col-10 col-lg-8">
+                  <h5
+                    class="text-white text-uppercase mb-3 animated slideInDown"
+                    style="color: white !important"
+                  >
+                    Elegant, Durable & Handcrafted Wooden Jewellery Boxes
+                  </h5>
+                  <h1
+                    class="display-3 text-white animated slideInDown mb-4"
+                    style="color: white !important"
+                  >
+                    Preserve Your Treasures with Premium Wooden Jewellery Boxes
+                  </h1>
+                  <p
+                    class="fs-5 fw-medium text-white mb-4 pb-2"
+                    style="color: white !important"
+                  >
+                    Discover our beautifully handcrafted jewellery boxes,
+                    designed to keep your valuables safe while adding a touch of
+                    luxury and timeless charm to your collection. Perfect for
+                    personal use or gifting.
+                  </p>
+                  <a
+                    href="#"
+                    class="btn bg-primary btn-primary py-md-3 px-md-5 me-3 animated slideInLeft"
+                  >
+                    Shop Now
+                  </a>
+                  <a
+                    href="#"
+                    class="btn text-light bg-primary btn-secondary py-md-3 px-md-5 animated slideInRight"
+                  >
+                    Get Offer
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Carousel End -->
+
+    <!-- About Start -->
+    <div class="container-xxl py-5">
+      <div class="container">
+        <div class="row g-5 align-items-center">
+          <!-- Text Column -->
+          <div class="col-12 col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+            <h6
+              class="text-secondary text-uppercase"
+              style="color: #3058f5 !important"
+            >
+              About Us
+            </h6>
+            <h1 class="mb-4" style="color: #5333f2 !important">
+              MEHRA WOOD HANDICRAFTS – Trusted for Premium Wooden Serveware &
+              Handcrafted Products
+            </h1>
+            <p class="mb-4">
+              Established with a passion for craftsmanship,
+              <strong>Mehra Wood Handicrafts</strong> is a trusted name in the
+              world of premium wooden products. We specialize in creating
+              high-quality
+              <strong
+                >wooden trays, platters, bowls, jewellery boxes, and
+                cutlery</strong
+              >
+              that combine elegance, durability, and traditional artistry. Every
+              piece is carefully handcrafted by skilled artisans, blending
+              natural beauty with practical functionality. Our mission is to
+              deliver sustainable, stylish, and timeless wooden products that
+              add charm to homes, hotels, restaurants, and gifting collections.
+              With a strong commitment to
+              <strong>quality, innovation, and customer satisfaction</strong>,
+              Mehra Wood Handicrafts continues to be a preferred choice for both
+              domestic and international clients.
+            </p>
+            <p class="fw-medium text-primary">
+              <i
+                class="fa fa-check text-success me-3"
+                style="color: #bd0a8e !important"
+              ></i>
+              Handcrafted Wooden Products
+            </p>
+            <p class="fw-medium text-primary">
+              <i
+                class="fa fa-check text-success me-3"
+                style="color: #bd0a8e !important"
+              ></i>
+              Premium Quality & Durability
+            </p>
+            <p class="fw-medium text-primary">
+              <i
+                class="fa fa-check text-success me-3"
+                style="color: #bd0a8e !important"
+              ></i>
+              Reliable & Timely Service
+            </p>
+            <div class="bg-primary d-flex align-items-center p-4 mt-4">
+              <div
+                class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white"
+                style="width: 60px; height: 60px"
+              >
+                <i class="fa fa-phone-alt fa-2x text-primary"></i>
+              </div>
+              <div class="ms-3">
+                <p class="fs-5 fw-medium mb-2 text-white">Customer Support</p>
+                <h3 class="m-0 text-secondary">+91 9917576628</h3>
+              </div>
+            </div>
+          </div>
+
+          <!-- Image Column -->
+          <div class="col-12 col-lg-6 pt-4 pt-lg-0">
+            <div class="position-relative wow fadeInUp" data-wow-delay="0.5s">
+              <img
+                class="img-fluid w-100"
+                src="img/woodabout.jpg"
+                style="object-fit: contain"
+                alt="Packaging Solutions"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- About End -->
+
+    <!-- Products Start -->
+    <div class="container-xxl py-5">
+      <div class="container">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+          <h6 class="text-secondary text-uppercase">
+            Premium Packaging Solutions. Zero Compromise
+          </h6>
+          <h1 class="mb-5">Authentic Packaging Solutions You Can Trust</h1>
+        </div>
+        <div class="row g-4 justify-content-center">
+          <!-- Card 1 - Wood Tray -->
+          <div
+            class="col-12 col-sm-6 col-md-6 col-lg-3 wow fadeInUp"
+            data-wow-delay="0.1s"
+          >
+            <div
+              class="card h-100"
+              style="border-radius: 15px; overflow: hidden"
+            >
+              <img
+                src="img/woodtray.jpg"
+                class="card-img-top img-fluid"
+                alt="Wooden Tray"
+                style="height: 200px; object-fit: cover"
+              />
+              <div class="card-body text-center d-flex flex-column">
+                <h5 class="card-title">Wood Tray</h5>
+                <p class="card-text">
+                  Elegant handcrafted wooden trays designed for serving and
+                  décor with durability and style.
+                </p>
+                <div class="d-flex justify-content-center gap-2 mt-auto">
+                  <a href="#" class="btn bg-primary btn-primary">Enquiry</a>
+                  <a href="tray.html" class="btn bg-primary btn-primary"
+                    >Details</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 - Jewellery Box -->
+          <div
+            class="col-12 col-sm-6 col-md-6 col-lg-3 wow fadeInUp"
+            data-wow-delay="0.1s"
+          >
+            <div
+              class="card h-100"
+              style="border-radius: 15px; overflow: hidden"
+            >
+              <img
+                src="img/woodjewellery.jpg"
+                class="card-img-top img-fluid"
+                alt="Wooden Jewellery Box"
+                style="height: 200px; object-fit: cover"
+              />
+              <div class="card-body text-center d-flex flex-column">
+                <h5 class="card-title">Jewellery Box</h5>
+                <p class="card-text">
+                  Beautifully crafted wooden jewellery boxes to store and
+                  protect your precious ornaments.
+                </p>
+                <div class="d-flex justify-content-center gap-2 mt-auto">
+                  <a href="#" class="btn bg-primary btn-primary">Enquiry</a>
+                  <a href="jewellerybox.html" class="btn bg-primary btn-primary"
+                    >Details</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 - Cutlery -->
+          <div
+            class="col-12 col-sm-6 col-md-6 col-lg-3 wow fadeInUp"
+            data-wow-delay="0.1s"
+          >
+            <div
+              class="card h-100"
+              style="border-radius: 15px; overflow: hidden"
+            >
+              <img
+                src="img/woodcutlery.jpeg"
+                class="card-img-top img-fluid"
+                alt="Wooden Cutlery"
+                style="height: 200px; object-fit: cover"
+              />
+              <div class="card-body text-center d-flex flex-column">
+                <h5 class="card-title">Cutlery</h5>
+                <p class="card-text">
+                  Premium handcrafted wooden cutlery combining functionality
+                  with natural beauty.
+                </p>
+                <div class="d-flex justify-content-center gap-2 mt-auto">
+                  <a href="#" class="btn bg-primary btn-primary">Enquiry</a>
+                  <a href="cutlery.html" class="btn bg-primary btn-primary"
+                    >Details</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 4 - Platters -->
+          <div
+            class="col-12 col-sm-6 col-md-6 col-lg-3 wow fadeInUp"
+            data-wow-delay="0.1s"
+          >
+            <div
+              class="card h-100"
+              style="border-radius: 15px; overflow: hidden"
+            >
+              <img
+                src="img/woodplater.jpg"
+                class="card-img-top img-fluid"
+                alt="Wooden Platters"
+                style="height: 200px; object-fit: contain"
+              />
+              <div class="card-body text-center d-flex flex-column">
+                <h5 class="card-title">Platters</h5>
+                <p class="card-text">
+                  Stylish and durable wooden platters perfect for serving meals
+                  with elegance.
+                </p>
+                <div class="d-flex justify-content-center gap-2 mt-auto">
+                  <a href="#" class="btn bg-primary btn-primary">Enquiry</a>
+                  <a href="platter.html" class="btn bg-primary btn-primary"
+                    >Details</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--   Products End -->
+
+    <!-- Fact Start -->
+    <div class="container-fluid fact bg-dark my-5 py-5">
+      <div class="container">
+        <div class="row g-4">
+          <div
+            class="col-md-6 col-lg-3 text-center wow fadeIn"
+            data-wow-delay="0.1s"
+          >
+            <i class="fa fa-check fa-2x text-white mb-3"></i>
+            <h2 class="text-white mb-2" data-toggle="counter-up">1234</h2>
+            <p class="text-white mb-0">Years Experience</p>
+          </div>
+          <div
+            class="col-md-6 col-lg-3 text-center wow fadeIn"
+            data-wow-delay="0.3s"
+          >
+            <i class="fa fa-users-cog fa-2x text-white mb-3"></i>
+            <h2 class="text-white mb-2" data-toggle="counter-up">1234</h2>
+            <p class="text-white mb-0">Premium Packaging Solutions</p>
+          </div>
+          <div
+            class="col-md-6 col-lg-3 text-center wow fadeIn"
+            data-wow-delay="0.5s"
+          >
+            <i class="fa fa-users fa-2x text-white mb-3"></i>
+            <h2 class="text-white mb-2" data-toggle="counter-up">1234</h2>
+            <p class="text-white mb-0">Satisfied Clients</p>
+          </div>
+          <div
+            class="col-md-6 col-lg-3 text-center wow fadeIn"
+            data-wow-delay="0.7s"
+          >
+            <i class="fa fa-wrench fa-2x text-white mb-3"></i>
+            <h2 class="text-white mb-2" data-toggle="counter-up">1234</h2>
+            <p class="text-white mb-0">Complete Projects</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Fact End -->
+
+    <!-- Service Start -->
+    <div class="container-fluid py-5 px-4 px-lg-0">
+      <div class="row g-0">
+        <!-- Left Side Experience -->
+        <div class="col-lg-3 d-none d-lg-flex">
+          <div
+            class="d-flex align-items-center justify-content-center bg-primary w-100 h-100"
+          >
+            <h1
+              class="display-3 text-white m-0"
+              style="transform: rotate(-90deg)"
+            >
+              20 Years Experience
+            </h1>
+          </div>
+        </div>
+
+        <!-- Right Side Services -->
+        <div class="col-md-12 col-lg-9">
+          <div class="ms-lg-5 ps-lg-5">
+            <div
+              class="text-center text-lg-start wow fadeInUp"
+              data-wow-delay="0.1s"
+            >
+              <h6 class="text-secondary text-uppercase">Our Services</h6>
+              <h1 class="mb-5">
+                Explore Our Premium Wooden Handicraft Collection
+              </h1>
+            </div>
+
+            <div
+              class="owl-carousel service-carousel position-relative wow fadeInUp"
+              data-wow-delay="0.1s"
+            >
+              <!-- Service 1 -->
+              <div class="bg-light p-4">
+                <div
+                  class="d-flex align-items-center justify-content-center border border-5 border-white mb-4"
+                  style="width: 75px; height: 75px"
+                >
+                  <i class="fa fa-tree fa-2x text-primary"></i>
+                </div>
+                <h4 class="mb-3">Authentic Wooden Craftsmanship</h4>
+                <p>
+                  Handcrafted wooden trays, bowls, platters, cutlery, and
+                  jewellery boxes made with premium quality wood.
+                </p>
+                <p class="text-primary fw-medium">
+                  <i class="fa fa-check text-success me-2"></i>100% Handmade
+                </p>
+                <p class="text-primary fw-medium">
+                  <i class="fa fa-check text-success me-2"></i>Sustainable
+                  Materials
+                </p>
+                <p class="text-primary fw-medium">
+                  <i class="fa fa-check text-success me-2"></i>Unique Craft
+                  Designs
+                </p>
+                <a href="#" class="btn bg-white text-primary w-100 mt-2">
+                  Read More<i class="fa fa-arrow-right text-secondary ms-2"></i>
+                </a>
+              </div>
+
+              <!-- Service 2 -->
+              <div class="bg-light p-4">
+                <div
+                  class="d-flex align-items-center justify-content-center border border-5 border-white mb-4"
+                  style="width: 75px; height: 75px"
+                >
+                  <i class="fa fa-gift fa-2x text-primary"></i>
+                </div>
+                <h4 class="mb-3">Latest Handicraft Collections</h4>
+                <p>
+                  Discover our new arrivals in trays, platters, jewellery boxes,
+                  bowls, and cutlery designed for modern homes.
+                </p>
+                <p class="text-primary fw-medium">
+                  <i class="fa fa-check text-success me-2"></i>Exclusive Designs
+                </p>
+                <p class="text-primary fw-medium">
+                  <i class="fa fa-check text-success me-2"></i>Perfect for
+                  Gifting
+                </p>
+                <p class="text-primary fw-medium">
+                  <i class="fa fa-check text-success me-2"></i>Premium Finishing
+                </p>
+                <a href="#" class="btn bg-white text-primary w-100 mt-2">
+                  Read More<i class="fa fa-arrow-right text-secondary ms-2"></i>
+                </a>
+              </div>
+
+              <!-- Service 3 -->
+              <div class="bg-light p-4">
+                <div
+                  class="d-flex align-items-center justify-content-center border border-5 border-white mb-4"
+                  style="width: 75px; height: 75px"
+                >
+                  <i class="fa fa-search fa-2x text-primary"></i>
+                </div>
+                <h4 class="mb-3">Quality Assurance</h4>
+                <p>
+                  Every product is inspected to ensure durability, fine finish,
+                  and long-lasting beauty.
+                </p>
+                <p class="text-primary fw-medium">
+                  <i class="fa fa-check text-success me-2"></i>Trusted Craft
+                  Quality
+                </p>
+                <p class="text-primary fw-medium">
+                  <i class="fa fa-check text-success me-2"></i>Polished &
+                  Durable
+                </p>
+                <p class="text-primary fw-medium">
+                  <i class="fa fa-check text-success me-2"></i>Customer
+                  Satisfaction Guaranteed
+                </p>
+                <a href="#" class="btn bg-white text-primary w-100 mt-2">
+                  Read More<i class="fa fa-arrow-right text-secondary ms-2"></i>
+                </a>
+              </div>
+
+              <!-- Service 4 -->
+              <div class="bg-light p-4">
+                <div
+                  class="d-flex align-items-center justify-content-center border border-5 border-white mb-4"
+                  style="width: 75px; height: 75px"
+                >
+                  <i class="fa fa-truck fa-2x text-primary"></i>
+                </div>
+                <h4 class="mb-3">Fast & Secure Delivery</h4>
+                <p>
+                  We ensure safe packaging and timely delivery of all our
+                  handcrafted wooden products across India and abroad.
+                </p>
+                <p class="text-primary fw-medium">
+                  <i class="fa fa-check text-success me-2"></i>Safe & Secure
+                  Packaging
+                </p>
+                <p class="text-primary fw-medium">
+                  <i class="fa fa-check text-success me-2"></i>On-Time Dispatch
+                </p>
+                <p class="text-primary fw-medium">
+                  <i class="fa fa-check text-success me-2"></i>Worldwide
+                  Shipping
+                </p>
+                <a href="#" class="btn bg-white text-primary w-100 mt-2">
+                  Read More<i class="fa fa-arrow-right text-secondary ms-2"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Service End -->
+
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+      <div class="container">
+        <div class="text-center">
+          <h6 class="text-secondary text-uppercase">Testimonial</h6>
+          <h1 class="mb-5">What Our Customers Say</h1>
+        </div>
+        <div
+          class="owl-carousel testimonial-carousel position-relative wow fadeInUp"
+          data-wow-delay="0.1s"
+        >
+          <!-- Testimonial 1 -->
+          <div class="testimonial-item text-center">
+            <div class="testimonial-text bg-light text-center p-4 mb-4">
+              <p class="mb-0">
+                “The wooden trays I purchased are simply beautiful and sturdy.
+                Perfect for serving and add a classy touch to my dining table.”
+              </p>
+            </div>
+            <img
+              class="bg-light rounded-circle p-2 mx-auto mb-2"
+              src="img/testimonial-1.jpg"
+              style="width: 80px; height: 80px; object-fit: cover"
+            />
+            <div class="mb-2">
+              <small class="fa fa-star text-secondary"></small>
+              <small class="fa fa-star text-secondary"></small>
+              <small class="fa fa-star text-secondary"></small>
+              <small class="fa fa-star text-secondary"></small>
+              <small class="fa fa-star text-secondary"></small>
+            </div>
+            <h5 class="mb-1">Anjali Sharma, Delhi</h5>
+            <p class="m-0">Home Decor Enthusiast</p>
+          </div>
+
+          <!-- Testimonial 2 -->
+          <div class="testimonial-item text-center">
+            <div class="testimonial-text bg-light text-center p-4 mb-4">
+              <p class="mb-0">
+                “I ordered wooden jewellery boxes as gifts for my boutique
+                clients. The craftsmanship and detailing are outstanding.”
+              </p>
+            </div>
+            <img
+              class="bg-light rounded-circle p-2 mx-auto mb-2"
+              src="img/testimonial-2.jpg"
+              style="width: 80px; height: 80px; object-fit: cover"
+            />
+            <div class="mb-2">
+              <small class="fa fa-star text-secondary"></small>
+              <small class="fa fa-star text-secondary"></small>
+              <small class="fa fa-star text-secondary"></small>
+              <small class="fa fa-star text-secondary"></small>
+              <small class="fa fa-star text-secondary"></small>
+            </div>
+            <h5 class="mb-1">Ramesh Kumar, Mumbai</h5>
+            <p class="m-0">Boutique Owner</p>
+          </div>
+
+          <!-- Testimonial 3 -->
+          <div class="testimonial-item text-center">
+            <div class="testimonial-text bg-light text-center p-4 mb-4">
+              <p class="mb-0">
+                “The handcrafted bowls and platters are both functional and
+                elegant. They make my kitchen and dining space look amazing.”
+              </p>
+            </div>
+            <img
+              class="bg-light rounded-circle p-2 mx-auto mb-2"
+              src="img/testimonial-3.jpg"
+              style="width: 80px; height: 80px; object-fit: cover"
+            />
+            <div class="mb-2">
+              <small class="fa fa-star text-secondary"></small>
+              <small class="fa fa-star text-secondary"></small>
+              <small class="fa fa-star text-secondary"></small>
+              <small class="fa fa-star text-secondary"></small>
+              <small class="fa fa-star text-secondary"></small>
+            </div>
+            <h5 class="mb-1">Priya Desai, Bangalore</h5>
+            <p class="m-0">Food Blogger</p>
+          </div>
+
+          <!-- Testimonial 4 -->
+          <div class="testimonial-item text-center">
+            <div class="testimonial-text bg-light text-center p-4 mb-4">
+              <p class="mb-0">
+                “I bought wooden cutlery sets for my restaurant, and they are a
+                big hit with customers. Durable, eco-friendly, and stylish.”
+              </p>
+            </div>
+            <img
+              class="bg-light rounded-circle p-2 mx-auto mb-2"
+                    src="img/testimonial-4.jpg"
+              style="width: 80px; height: 80px; object-fit: cover"
+            />
+            <div class="mb-2">
+              <small class="fa fa-star text-secondary"></small>
+              <small class="fa fa-star text-secondary"></small>
+              <small class="fa fa-star text-secondary"></small>
+              <small class="fa fa-star text-secondary"></small>
+              <small class="fa fa-star text-secondary"></small>
+            </div>
+            <h5 class="mb-1">Suresh Rao, Chennai</h5>
+            <p class="m-0">Restaurant Owner</p>
+          </div>
+
+          <!-- Testimonial 5 -->
+          <div class="testimonial-item text-center">
+            <div class="testimonial-text bg-light text-center p-4 mb-4">
+              <p class="mb-0">
+                “The platters I ordered for my catering business look premium
+                and make food presentation much more elegant. Highly
+                recommended!”
+              </p>
+            </div>
+            <img
+              class="bg-light rounded-circle p-2 mx-auto mb-2"
+              src="img/testimonial-5.jpg"
+              style="width: 80px; height: 80px; object-fit: cover"
+            />
+            <div class="mb-2">
+              <small class="fa fa-star text-secondary"></small>
+              <small class="fa fa-star text-secondary"></small>
+              <small class="fa fa-star text-secondary"></small>
+              <small class="fa fa-star text-secondary"></small>
+              <small class="fa fa-star text-secondary"></small>
+            </div>
+            <h5 class="mb-1">Neha Verma, Pune</h5>
+            <p class="m-0">Catering Professional</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--  Testimonial End -->
+
+    <!-- Contact Start -->
+    <div class="container-xxl py-5">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <h6 class="text-secondary text-uppercase">Get In Touch</h6>
+            <h1 class="mb-4">Contact For Any Query</h1>
+            <p class="mb-4">
+              Have questions about our products, your order, or anything else?
+              We're here to help! Reach out to us anytime and our support team
+              will get back to you as soon as possible.
+            </p>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d27651.718142580183!2d77.50785182841021!3d29.966070397606636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s%20sugar%20mil%20primary%20school%20%20sharda%20nagar%20uttar%20pardesh%20india%20247001!5e0!3m2!1sen!2sin!4v1756882925106!5m2!1sen!2sin"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="bg-light p-5 h-100 d-flex align-items-center">
+              <form>
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <div class="form-floating">
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="name"
+                        placeholder="Your Name"
+                      />
+                      <label for="name">Your Name</label>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-floating">
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="email"
+                        placeholder="Your Email"
+                      />
+                      <label for="email">Your Email</label>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="form-floating">
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="subject"
+                        placeholder="Subject"
+                      />
+                      <label for="subject">Subject</label>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="form-floating">
+                      <textarea
+                        class="form-control"
+                        placeholder="Leave a message here"
+                        id="message"
+                        style="height: 150px"
+                      ></textarea>
+                      <label for="message">Message</label>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <button
+                      class="btn bg-primary btn-primary w-100 py-3"
+                      type="submit"
+                    >
+                      Send Message
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contact End -->
+
+    <!-- Footer Start -->
+    <div
+      class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <div class="container py-5">
+        <div class="row g-5">
+          <div class="col-lg-3 col-md-6">
+            <h4 class="text-light mb-4">Address</h4>
+            <p class="mb-2">
+              <i class="fa fa-map-marker-alt me-3"></i>H.No-2 sugar mil primary
+              school sharda nagar uttar pardesh india 247001
+            </p>
+            <p class="mb-2">
+              <i class="fa fa-phone-alt me-3"></i>+91 9917576628
+            </p>
+            <!-- <p class="mb-2">
+              <i class="fa fa-envelope me-3"></i>info@shreechamundabags.com
+            </p> -->
+            <div class="d-flex pt-2">
+              <a class="btn btn-outline-light btn-social" href=""
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a class="btn btn-outline-light btn-social" href=""
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a class="btn btn-outline-light btn-social" href=""
+                ><i class="fab fa-youtube"></i
+              ></a>
+              <a class="btn btn-outline-light btn-social" href=""
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h4 class="text-light mb-4">Opening Hours</h4>
+            <h6 class="text-light">Monday - Friday:</h6>
+            <p class="mb-4">09.00 AM - 09.00 PM</p>
+            <h6 class="text-light">Saturday - Sunday:</h6>
+            <p class="mb-0">09.00 AM - 12.00 PM</p>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h4 class="text-light mb-4">Services</h4>
+            <a class="btn btn-link" href="">Services 1</a>
+            <a class="btn btn-link" href="">Services 1</a>
+            <a class="btn btn-link" href="">Services 1</a>
+            <a class="btn btn-link" href="">Services 1</a>
+            <a class="btn btn-link" href="">Services 1</a>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h4 class="text-light mb-4">Newsletter</h4>
+            <p>
+              We value integrity, clarity, and dedication in everything we do.
+            </p>
+            <div class="position-relative mx-auto" style="max-width: 400px">
+              <input
+                class="form-control border-0 w-100 py-3 ps-4 pe-5"
+                type="text"
+                placeholder="Your email"
+              />
+              <button
+                type="button"
+                class="btn bg-primary btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"
+              >
+                SignUp
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="copyright">
+          <div class="row">
+            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+              &copy;
+              <a class="border-bottom" href="#">MEHRA WOOD HANDICRAFTS</a>, All
+              Right Reserved.
+            </div>
+            <div class="col-md-6 text-center text-md-end">
+              <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+              Designed By
+              <a class="border-bottom" href="https://trade4export.com"
+                >Trade4Export</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a
+      href="#"
+      class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"
+      ><i class="bi bi-arrow-up"></i
+    ></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+    <!-- Submenu Toggle Script -->
+    <script>
+      document
+        .querySelector(".toggle-submenu")
+        .addEventListener("click", function () {
+          const submenu = document.querySelector(".submenu");
+          submenu.classList.toggle("d-none");
+        });
+    </script>
+  </body>
 </html>
+
+
+
